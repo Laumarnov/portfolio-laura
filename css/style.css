@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'intertext';
+    src: url('../fuentes/Inter-VariableFont_slnt\,wght.ttf');
+  }
+
+  @font-face {
+    font-family: 'Graphikh1';
+    src: url('../fuentes/GraphikSemibold.otf');
+  }
+
+.container-logo{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 42px auto;
+    padding:0 90px;
+    background-color: rgb(255, 255, 255);
+    font: size 16px;
+    font-family:"intertext"
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+nav a{
+    font-weight: normal;
+    color:black; 
+    text-decoration: none;
+
+}
+
+nav button {
+    background-color:rgba(255, 20, 157, 1);
+    padding: 12px 0;
+    width: 100px;
+    border: none;
+
+}
+
+.container-titulo {
+    padding: 0 90px;
+    height: 322px;
+    width: 911px;
+    left: 196px;
+    top: 250px;
+    margin-top: 160px;
+}
+
+.container-titulo p {
+    margin-top: 16px;
+}
+
+.container-titulo h1 {
+    max-width: 750px;
+}s
+
+.whoamI {
+    padding: 0 90px;
+}
+
+.whoamiimg{
+   width: 70%;
+}
+
+.container-current {
+    display: flex;
+    gap: 24px;
+    padding: 0 90px;
+    
+}
+.section-dots h2{
+    padding:0 90px ;
+    margin: 100px 0 60px 0;}
+
+.container-dots {
+    display: flex;
+    justify-content: space-around;
+    text-align:center
+ }
+
+ .container-dots p {
+     margin-top: 24px;
+ }
+
+ .centerimg {
+     display: block;
+     margin: 0 auto 14px auto;
+     width: 38px;
+ }
+ .Latests {
+    padding:0 90px ;
+    margin-top: 100px}
+ 
+.container-section{
+    display: flex;
+    gap: 94px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 90px;
+    margin: 60px 0px;}
+
+.container-section button
+{
+    background-color:rgb(255, 255, 255);
+    padding: 12px 12px;
+    border: 1px solid black;
+}
+.project > p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.article-img{
+    width: 50%;
+}
+
+p{
+    font: size 16px;
+    font-family:"intertext";
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Graphikh1";
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Graphikh1";
+}
+
+h3{
+    font-size: 24;
+    font-family: "Graphikh1";
+}
+
+button{
+    font-size: 16px;
+    font-family:"intertext";
+}
+
+.container-tools{
+    padding: 0 90px;
+    margin-top: 100px;
+     }
+
+.container-tools h2{
+    margin-bottom: 60px;
+}
+
+.container-tools p {
+    margin-top: 24px
+}
+
+.article-tools {
+    display: flex;
+    justify-content: space-between;
+    text-align:center
+}
+
+.section-aboutme {
+    padding: 0 90px;
+}
+
+.section-aboutme h2 {
+    margin-bottom: 60px;
+}
+
+.div-aboutme {
+    display: flex;
+    gap: 94px;
+}
+.div-aboutme p {
+    width: 100%;
+}
+
+footer {
+ font-size: 16px;
+ font-family: "intertext";
+ padding: 0 90px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.section-methodology {
+    padding: 0 90px;
+    margin-top: 100px;
+}
+
+.section-methodology h2 {
+    margin-bottom: 60px;
+}
+
+.div-methodoloy {
+    display: flex;
+    gap: 94px;
+}
+
+.section-aboutme {
+    padding: 0 90px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.div-aboutme p {
+    width: 100%;
+}
+
+.container-footer p {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
